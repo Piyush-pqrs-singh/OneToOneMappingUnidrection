@@ -69,6 +69,8 @@ class RepoEntityUserTest {
 		if(e1.isPresent()) {
 	
 			EntityUser eu1=e1.get();
+		
+	  //   eu1.getAddress().setCountry("Israel");      //PLEASE USE THIS
 			EntityAddress ea=new EntityAddress();
 			ea.setStreet("Sakinaka");
 			ea.setCity("Mumbai");
